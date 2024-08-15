@@ -57,3 +57,10 @@ video {
     background-size: cover;
     overflow: hidden;
 }
+
+@media (max-width: 767px) {
+    video {
+        min-width: 80%;
+        min-height: 80%;
+    }
+}
