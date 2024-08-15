@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(120, 128, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.instant.embed {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.large-button {
+    width: 460px;
+    height: 310px;
+    position: absolute;
+    background: url(./Button/Button.png) no-repeat;
+    background-position: -5px -5px;
+    border: 0;
+    display: block;
+    -webkit-tap-highlight-color: transparent
+}
+
+.large-button:focus {
+    background: url(./Button/Button.png) no-repeat;
+    background-position: -5px -5px
+}
+
+.large-button:active {
+    background: url(./Button/Button.png) no-repeat;
+    background-position: -440px -5px
+}
+
+.large-button-shadow {
+    width: 450px;
+    height: 400px;
+    background: url(./Button/Button_shadow.png) no-repeat;
+    background-position: -10px -5px;
+    margin-top: 20px;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    overflow: hidden;
+}
