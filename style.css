@@ -60,7 +60,7 @@ video {
 
 @media (max-width: 767px) {
     video {
-        min-width: 80%;
-        min-height: 80%;
+        width: 100vw;
+        height: 100vh;
     }
 }
